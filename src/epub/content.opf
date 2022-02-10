@@ -27,53 +27,80 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Household Tales</dc:title>
+		<meta property="title-type" refines="#title">main</meta>
 		<meta property="file-as" refines="#title">Household Tales</meta>
+		<dc:title id="title-short">Grimms’ Fairy Tales</dc:title>
+		<meta property="title-type" refines="#title-short">short</meta>
+		<meta property="file-as" refines="#title-short">Grimms’ Fairy Tales</meta>
 		<dc:subject id="subject-1">Fairy tales -- Germany</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008103478</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Childrens</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Shorts</meta>
+		<dc:description id="description">A collection of Germanic fairy tales containing the classic stories of Cinderella, Snow-White, Rapunzel, and other well known characters.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;When it was first published in 1812 as &lt;i&gt;Children’s and Household Tales&lt;/i&gt;, this collection of Germanic fairy tales contained 86 stories and was criticized because, despite the name, it wasn’t particularly well-suited to children. Over the next 45 years, stories were added, removed, and modified until the final seventh edition was published in 1857 containing 210 fairy tales. Today, the book is commonly referred to as &lt;i&gt;Grimms’ Fairy Tales&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;These fairy tales include several well known characters such as Cinderella, Snow-White, and Rapunzel as well as many more that never became quite as popular. Over the years, these stories have been translated, retold, and adapted to many different media.&lt;/p&gt;
+			&lt;p&gt;This is a collection of Margaret Hunt’s 1884 English translation, originally published in two volumes.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5314</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://books.google.com/books?id=kLwxAQAAMAAJ</dc:source>
+		<dc:source>https://books.google.com/books?id=xLwxAQAAMAAJ</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jacob-grimm_wilhelm-grimm_household-tales_margaret-hunt</meta>
 		<dc:creator id="author-1">Jacob Grimm</dc:creator>
 		<meta property="file-as" refines="#author-1">Grimm, Jacob</meta>
-		<meta property="se:name.person.full-name" refines="#author-1">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author-1">Jacob Ludwig Karl Grimm</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-1">https://en.wikipedia.org/wiki/Jacob_Grimm</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-1">http://id.loc.gov/authorities/names/n78095680</meta>
 		<meta property="role" refines="#author-1" scheme="marc:relators">aut</meta>
 		<dc:creator id="author-2">Wilhelm Grimm</dc:creator>
 		<meta property="file-as" refines="#author-2">Grimm, Wilhelm</meta>
-		<meta property="se:name.person.full-name" refines="#author-2">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author-2">Wilhelm Carl Grimm</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author-2">https://en.wikipedia.org/wiki/Wilhelm_Grimm</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author-2">http://id.loc.gov/authorities/names/n78095679</meta>
 		<meta property="role" refines="#author-2" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Margaret Hunt</dc:contributor>
 		<meta property="file-as" refines="#translator">Hunt, Margaret</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Margaret_Hunt</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:name.person.full-name" refines="#translator">Margaret Raine Hunt</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Margaret_Raine_Hunt</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n50046360</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">John Everett Millais</dc:contributor>
+		<meta property="file-as" refines="#artist">Millais, John Everett</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Everett_Millais</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50041758</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Veronica LeGrow</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">LeGrow, Veronica</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Katie Nicholson</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Nicholson, Katie</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Erin Shea</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Shea, Erin</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">David Baird</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Baird, David</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">David Skinner</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Skinner, David</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">All undergraduates at Memorial University of Newfoundland</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">All undergraduates at Memorial University of Newfoundland</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-7">William Barker</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Barker, William</meta>
+		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-8">Leon Kuperman</dc:contributor>
+		<meta property="file-as" refines="#transcriber-8">Kuperman, Leon</meta>
+		<meta property="role" refines="#transcriber-8" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason DeCock</dc:contributor>
+		<meta property="file-as" refines="#producer-1">DeCock, Jason</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
