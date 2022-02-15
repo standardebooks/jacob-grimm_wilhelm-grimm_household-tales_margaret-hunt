@@ -48,6 +48,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/5314</dc:source>
 		<dc:source>https://books.google.com/books?id=kLwxAQAAMAAJ</dc:source>
 		<dc:source>https://books.google.com/books?id=xLwxAQAAMAAJ</dc:source>
+		<meta property="se:production-notes">I have added paragraph breaks to dialog in order to improve readability.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales</meta>
