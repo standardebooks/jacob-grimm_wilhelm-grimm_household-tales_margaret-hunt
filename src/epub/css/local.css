@@ -18,3 +18,7 @@
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
+
+#childrens-legends article{
+	break-after: page;
+}
