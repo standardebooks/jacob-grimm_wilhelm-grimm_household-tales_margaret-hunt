@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/jacob-grimm_wilhelm-grimm/household-tales/margaret-hunt</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-02-21T21:58:34Z</dc:date>
+		<meta property="dcterms:modified">2022-02-21T21:58:34Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -29,9 +29,7 @@
 		<dc:title id="title">Household Tales</dc:title>
 		<meta property="title-type" refines="#title">main</meta>
 		<meta property="file-as" refines="#title">Household Tales</meta>
-		<dc:title id="title-short">Grimms’ Fairy Tales</dc:title>
-		<meta property="title-type" refines="#title-short">short</meta>
-		<meta property="file-as" refines="#title-short">Grimms’ Fairy Tales</meta>
+		<meta property="se:alternate-title" refines="#title">Grimms’ Fairy Tales</meta>
 		<dc:subject id="subject-1">Fairy tales -- Germany</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008103478</meta>
@@ -40,17 +38,17 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Germanic fairy tales containing the classic stories of Cinderella, Snow-White, Rapunzel, and other well known characters.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;When it was first published in 1812 as &lt;i&gt;Children’s and Household Tales&lt;/i&gt;, this collection of Germanic fairy tales contained 86 stories and was criticized because, despite the name, it wasn’t particularly well-suited to children. Over the next 45 years, stories were added, removed, and modified until the final seventh edition was published in 1857 containing 210 fairy tales. Today, the book is commonly referred to as &lt;i&gt;Grimms’ Fairy Tales&lt;/i&gt;.&lt;/p&gt;
-			&lt;p&gt;These fairy tales include several well known characters such as Cinderella, Snow-White, and Rapunzel as well as many more that never became quite as popular. Over the years, these stories have been translated, retold, and adapted to many different media.&lt;/p&gt;
+			&lt;p&gt;When it was first published in 1812 as &lt;i&gt;Children’s and Household Tales&lt;/i&gt;, this collection of Germanic fairy tales contained eighty-six stories and was criticized because, despite the name, it wasn’t particularly well-suited to children. Over the next forty-five years, stories were added, removed, and modified until the final seventh edition was published in 1857, containing 210 fairy tales. Today, the book is commonly referred to as &lt;i&gt;Grimms’ Fairy Tales&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;These fairy tales include well-known characters such as Cinderella, Snow White, and Rapunzel, as well as many more that never became quite as popular. Over the years, these stories have been translated, retold, and adapted to many different media.&lt;/p&gt;
 			&lt;p&gt;This is a collection of Margaret Hunt’s 1884 English translation, originally published in two volumes.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/5314</dc:source>
 		<dc:source>https://books.google.com/books?id=kLwxAQAAMAAJ</dc:source>
 		<dc:source>https://books.google.com/books?id=xLwxAQAAMAAJ</dc:source>
-		<meta property="se:production-notes">I have added paragraph breaks to dialog in order to improve readability.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The SE producer has added paragraph breaks to dialog in order to improve readability.</meta>
+		<meta property="se:word-count">284157</meta>
+		<meta property="se:reading-ease.flesch">82.48</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jacob-grimm_wilhelm-grimm_household-tales_margaret-hunt</meta>
 		<dc:creator id="author-1">Jacob Grimm</dc:creator>
@@ -108,6 +106,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.brokenandsaved.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
