@@ -47,7 +47,7 @@
 		<dc:source>https://books.google.com/books?id=kLwxAQAAMAAJ</dc:source>
 		<dc:source>https://books.google.com/books?id=xLwxAQAAMAAJ</dc:source>
 		<meta property="se:production-notes">The SE producer has added paragraph breaks to dialog in order to improve readability.</meta>
-		<meta property="se:word-count">284157</meta>
+		<meta property="se:word-count">284156</meta>
 		<meta property="se:reading-ease.flesch">82.48</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Grimms%27_Fairy_Tales</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/jacob-grimm_wilhelm-grimm_household-tales_margaret-hunt</meta>
