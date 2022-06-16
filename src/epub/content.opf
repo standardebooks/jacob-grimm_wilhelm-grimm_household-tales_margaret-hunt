@@ -29,7 +29,7 @@
 		<dc:title id="title">Household Tales</dc:title>
 		<meta property="title-type" refines="#title">main</meta>
 		<meta property="file-as" refines="#title">Household Tales</meta>
-		<meta property="se:alternate-title" refines="#title">Grimms’ Fairy Tales</meta>
+		<meta property="dcterms:alternate" refines="#title">Grimms’ Fairy Tales</meta>
 		<dc:subject id="subject-1">Fairy tales -- Germany</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008103478</meta>
