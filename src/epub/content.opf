@@ -36,6 +36,7 @@
 		<meta property="se:subject">Children’s</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of Germanic fairy tales containing the classic stories of Cinderella, Snow-White, Rapunzel, and other well known characters.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;When it was first published in 1812 as &lt;i&gt;Children’s and Household Tales&lt;/i&gt;, this collection of Germanic fairy tales contained eighty-six stories and was criticized because, despite the name, it wasn’t particularly well-suited to children. Over the next forty-five years, stories were added, removed, and modified until the final seventh edition was published in 1857, containing 210 fairy tales. Today, the book is commonly referred to as &lt;i&gt;Grimms’ Fairy Tales&lt;/i&gt;.&lt;/p&gt;
