@@ -27,7 +27,6 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Household Tales</dc:title>
-		<meta property="title-type" refines="#title">main</meta>
 		<meta property="file-as" refines="#title">Household Tales</meta>
 		<meta property="dcterms:alternate" refines="#title">Grimms’ Fairy Tales</meta>
 		<dc:subject id="subject-1">Fairy tales -- Germany</dc:subject>
