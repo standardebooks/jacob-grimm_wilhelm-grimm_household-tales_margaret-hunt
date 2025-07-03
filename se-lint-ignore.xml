@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="content.opf">
-		<ignore>
-			<code>m-056</code>
-			<reason>The author name that is being picked up is in the title of the book.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>
